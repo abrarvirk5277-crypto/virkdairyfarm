@@ -30,3 +30,15 @@ Replace `[Your Phone Number]` and the `wa.me/920000000000` link in `index.html` 
 - `index.html` — page content
 - `styles.css` — design
 - `script.js` — mobile menu + year
+
+
+## Local SEO (Kamoke)
+
+The site is optimized for searches like **Virk Dairy Farm near Kamoke**.
+
+To rank higher in Google Maps / “near me” results:
+
+1. Create a free [Google Business Profile](https://business.google.com/) for **Virk Dairy Farm** in Kamoke
+2. Add phone `03347203400`, website `https://abrarvirk5277-crypto.github.io/virkdairyfarm/`, and photos
+3. Ask customers to leave reviews
+4. In [Google Search Console](https://search.google.com/search-console), add the site and submit `sitemap.xml`
