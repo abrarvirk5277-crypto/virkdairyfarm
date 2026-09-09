@@ -1,23 +1,16 @@
 const toggle = document.querySelector(".nav-toggle");
-const nav = document.querySelector(".site-nav");
+const links = document.querySelector(".nav-links");
 const year = document.getElementById("year");
-
-if (year) {
-  year.textContent = String(new Date().getFullYear());
-}
-
-if (toggle && nav) {
+if (year) year.textContent = String(new Date().getFullYear());
+if (toggle && links) {
   toggle.addEventListener("click", () => {
-    const open = nav.classList.toggle("open");
+    const open = links.classList.toggle("open");
     toggle.setAttribute("aria-expanded", open ? "true" : "false");
-    toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
   });
-
-  nav.querySelectorAll("a").forEach((link) => {
-    link.addEventListener("click", () => {
-      nav.classList.remove("open");
+  links.querySelectorAll("a").forEach((a) =>
+    a.addEventListener("click", () => {
+      links.classList.remove("open");
       toggle.setAttribute("aria-expanded", "false");
-      toggle.setAttribute("aria-label", "Open menu");
-    });
-  });
+    })
+  );
 }
