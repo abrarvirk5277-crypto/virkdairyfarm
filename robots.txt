@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abrarvirk5277-crypto.github.io/virkdairyfarm/sitemap.xml
